@@ -101,6 +101,13 @@ export const ContactUs = () => {
               </a>
               <br />
               <br />
+              <strong>Linkedln:</strong>{" "}
+              <a href={`mailto:${contactConfig.YOUR_LINKEDLN}`}>
+                {contactConfig.YOUR_LINKEDLN}
+              </a>
+              <br />
+              <br />
+
               {contactConfig.hasOwnProperty("YOUR_FONE") ? (
                 <p>
                   <strong>Phone:</strong> {contactConfig.YOUR_FONE}
