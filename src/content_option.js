@@ -84,15 +84,16 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+const dataportfolio = [
+    {
+        img: require("./assets/images/hotel-mainpage.jpg"),
+        description: "Application to manage hotel reservations",
         link: "https://github.com/robertgrc/ProyectoHotel",
     },
     {
-        img: require("./assets/images/hotel-mainpage.jpg"),
-        description: "",
-        link: "https://github.com/robertgrc/ProyectoHotel",
+        img: require("./assets/images/sinc-mailchimp.jpg"),
+        description: "Sincronizador de contactos",
+        link: "https://github.com/robertgrc/Mail-chimp",
     },
     // {
     //     img: "https://picsum.photos/400/?grayscale",
