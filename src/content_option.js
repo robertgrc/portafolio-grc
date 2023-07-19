@@ -16,8 +16,8 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "I'm a passionate programmer with experience in web development. Skilled in HTML, CSS, JavaScript, and frameworks like React and C#. Eager to learn and take on new challenges in software development.This condensed version retains the key aspects of your description and highlights your skills, passion, and willingness to learn and grow as a programmer.",
+    title: "A bit about my self",
+    aboutme: "Hello! I'm Robert Rodríguez, a passionate programmer with a focus on web development, passionate about technology, I am dedicated to building creative and functional solutions in the frontend area using technologies such as HTML, CSS and JavaScript, and I have experience in the use of frameworks like React My main focus is to create intuitive and attractive user interfaces that provide a seamless experience for users. Besides frontend development, I also have background in backend development using Node.js. I have worked on projects involving API integration, database management and business logic implementation.This portfolio is a reflection of my work and my passion for programming. Here you can explore some of my previous projects and get an idea of my approach to web development. I am excited to continue growing as a professional and face new challenges in the world of software development. If you're looking for someone who is passionate about programming and focused on creating quality digital solutions, I'm excited for the opportunity to collaborate on future projects. Thank you for visiting my portfolio and I look forward to the opportunity to work together!",
 };
 const worktimeline = [{
         jobtitle: " Full Stack Developer - Mundo Digital ",
@@ -68,6 +68,14 @@ const skills = [{
         name: "Bootstrap",
         value: 70,
     },
+    {
+        name: "Selenium",
+        value: 65,
+    },
+    {
+        name: "JUnit",
+        value: 60,
+    },
 ];
 
 const services = [
@@ -88,16 +96,45 @@ const services = [
         description: " Providing ongoing support, bug fixes, and updates for existing websites to ensure their long-term functionality and security.",
     },
     {
-        title: "Continuous Research and Learning",
-        description: " Staying updated on the latest trends and advancements in frontend development, learning new technologies, and exploring innovative solutions to enhance skillset.",
+        title: "Software Quality Testing: ",
+        description: "Provide extensive testing services to ensure software quality, including functional testing, regression testing, performance testing, security testing, usability testing, among others.",
+    },
+    {
+        title: "Test Automation: ",
+        description: "Develop automated test scripts using popular tools and frameworks to streamline the testing process and improve efficiency.",
     },
 ];
 
 const dataportfolio = [
     {
-        img: require("./assets/images/hotel-mainpage.jpg"),
+        img: require("./assets/images/hotel-mainpage2.jpg"),
         description: "Application to manage hotel reservations",
         link: "https://github.com/robertgrc/ProyectoHotel",
+    },
+    {
+        img: require("./assets/images/tarjeta-reserva.jpg"),
+        description: "Registration Card",
+        link: "https://github.com/robertgrc/ProyectoHotel",
+    },
+    {
+        img: require("./assets/images/comandaRestaurante.jpg"),
+        description: "Restaurant Command",
+        link: "https://github.com/robertgrc/ProyectoHotel",
+    },
+    {
+        img: require("./assets/images/agregarAbonos.jpg"),
+        description: "Add customer payments",
+        link: "https://github.com/robertgrc/ProyectoHotel",
+    },
+    {
+        img: require("./assets/images/controlCuenta.jpg"),
+        description: "Automatic account control of orders, hotel stays and customer payments",
+        link: "https://github.com/robertgrc/ProyectoHotel",
+    },
+    {
+        img: require("./assets/images/tests.jpg"),
+        description: "User Stories and Test Cases for Hotel-App",
+        link: "",
     },
     {
         img: require("./assets/images/sinc-mailchimp.jpg"),
@@ -114,11 +151,7 @@ const dataportfolio = [
         description: "Calendar App, create events in a calendar assigning registered users in backend .",
         link: "https://github.com/robertgrc/mern-calendar-ferher.git",
     },
-    // {
-    //     img: "https://picsum.photos/400/300/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
+  
     // {
     //     img: "https://picsum.photos/400/700/?grayscale",
     //     description: "The wisdom of life consists in the elimination of non-essentials.",
