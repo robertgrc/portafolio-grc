@@ -1,4 +1,4 @@
-const logotext = "Robert R.";
+const logotext = "Robert";
 const meta = {
     title: "Robert Rodriguez",
     description: "I’m Robert Rodriguez Full stack devloper,currently working in Bolivia",
@@ -17,22 +17,22 @@ const introdata = {
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "I'm a passionate programmer with experience in web development. Skilled in HTML, CSS, JavaScript, and frameworks like React and C#. Eager to learn and take on new challenges in software development.This condensed version retains the key aspects of your description and highlights your skills, passion, and willingness to learn and grow as a programmer.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: " Full Stack Developer - Mundo Digital ",
+        where: "Cochabamba-Bolivia",
+        date: "2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "web Developer - Mundo Digital",
+        where: "Cochabamba-Bolivia",
+        date: "2022",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: " Front-end Developer - Mundo Digital",
+        where: "Cochabamba-Bolivia",
+        date: "2022",
     },
 ];
 
@@ -70,40 +70,50 @@ const skills = [{
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const services = [
+    {
+        title: "Website Development:",
+        description: "Creating responsive and visually appealing websites using HTML, CSS, and JavaScript, with a focus on user experience and usability.",
     },
     {
-        title: "Web Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "API Integration:",
+        description: "API Integration: Connecting and communicating with third-party APIs to incorporate additional functionalities into websites, such as payment gateway integration, social media integration, maps, etc.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "User Interface Development: ",
+        description: "Designing and developing interactive and dynamic user interfaces using frameworks and libraries like React.",
+    },
+    {
+        title: "Maintenance and Updates:",
+        description: " Providing ongoing support, bug fixes, and updates for existing websites to ensure their long-term functionality and security.",
+    },
+    {
+        title: "Continuous Research and Learning",
+        description: " Staying updated on the latest trends and advancements in frontend development, learning new technologies, and exploring innovative solutions to enhance skillset.",
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+const dataportfolio = [
+    {
+        img: require("./assets/images/hotel-mainpage.jpg"),
+        description: "Application to manage hotel reservations",
         link: "https://github.com/robertgrc/ProyectoHotel",
     },
     {
-        img: require("./assets/images/hotel-mainpage.jpg"),
-        description: "",
-        link: "https://github.com/robertgrc/ProyectoHotel",
+        img: require("./assets/images/sinc-mailchimp.jpg"),
+        description: "Contacts Sync",
+        link: "https://github.com/robertgrc/Mail-chimp",
     },
-    // {
-    //     img: "https://picsum.photos/400/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/600/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
+    {
+        img: require("./assets/images/heroes-app-grc.jpg"),
+        description: "Heroes App, shows information of heroes with their respective images .",
+        link: "https://github.com/robertgrc/heroes-app-2022",
+    },
+    {
+        img: require("./assets/images/calendar-app.jpg"),
+        description: "Calendar App, create events in a calendar assigning registered users in backend .",
+        link: "https://github.com/robertgrc/mern-calendar-ferher.git",
+    },
     // {
     //     img: "https://picsum.photos/400/300/?grayscale",
     //     description: "The wisdom of life consists in the elimination of non-essentials.",
