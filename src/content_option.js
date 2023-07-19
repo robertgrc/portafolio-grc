@@ -16,7 +16,7 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "A bit about my self",
+    title: "A bit about myself",
     aboutme: "Hello! I'm Robert Rodríguez, a passionate programmer with a focus on web development, passionate about technology, I am dedicated to building creative and functional solutions in the frontend area using technologies such as HTML, CSS and JavaScript, and I have experience in the use of frameworks like React My main focus is to create intuitive and attractive user interfaces that provide a seamless experience for users. Besides frontend development, I also have background in backend development using Node.js. I have worked on projects involving API integration, database management and business logic implementation.This portfolio is a reflection of my work and my passion for programming. Here you can explore some of my previous projects and get an idea of my approach to web development. I am excited to continue growing as a professional and face new challenges in the world of software development. If you're looking for someone who is passionate about programming and focused on creating quality digital solutions, I'm excited for the opportunity to collaborate on future projects. Thank you for visiting my portfolio and I look forward to the opportunity to work together!",
 };
 const worktimeline = [{
